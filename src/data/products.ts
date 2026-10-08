@@ -1,3 +1,9 @@
+import heroPetEditorialImg from '../assets/images/hero_pet_editorial_1791498762841.jpg';
+import productKnitSweaterImg from '../assets/images/product_knit_sweater_1791498773417.jpg';
+import productRainParkaImg from '../assets/images/product_rain_parka_1791498783157.jpg';
+import productCatCardiganImg from '../assets/images/product_cat_cardigan_1791498794920.jpg';
+import productFleeceHoodieImg from '../assets/images/product_fleece_hoodie_1791498804504.jpg';
+
 export type PetCategory = 'all' | 'dogs' | 'cats' | 'outerwear' | 'knitwear';
 
 export type PetSize = 'PP' | 'P' | 'M' | 'G' | 'GG';
@@ -90,7 +96,7 @@ export const HERO_CAMPAIGN = {
   headline: 'Conforto anatômico e fibras naturais para o passeio diário.',
   subheadline:
     'Roupas desenhadas respeitando o movimento livre de cães e gatos. Lã merino certificada, algodão orgânico penteado e tecidos impermeáveis com abertura selada para guia.',
-  image: '/src/assets/images/hero_pet_editorial_1791498762841.jpg',
+  image: heroPetEditorialImg,
   featuredProductIds: ['jj-04', 'jj-02'],
 };
 
@@ -106,7 +112,7 @@ export const PET_PRODUCTS: PetProduct[] = [
     price: 94.5,
     originalPrice: 189.0,
     checkoutUrl: 'https://buy.stripe.com/test_5kQfZia9eaqqcvP6rLbAs0c',
-    image: '/src/assets/images/product_knit_sweater_1791498773417.jpg',
+    image: productKnitSweaterImg,
     fallbackGradient: 'from-[#E5DDD2] to-[#D4C5B4]',
     material: '85% Lã Merino Extra-Macia · 15% Algodão Orgânico',
     careInstructions: 'Lavagem delicada em água fria. Secar na horizontal à sombra.',
@@ -140,7 +146,7 @@ export const PET_PRODUCTS: PetProduct[] = [
     price: 124.0,
     originalPrice: 248.0,
     checkoutUrl: 'https://buy.stripe.com/test_5kQ6oI0yE7ee7bv2bvbAs0d',
-    image: '/src/assets/images/product_rain_parka_1791498783157.jpg',
+    image: productRainParkaImg,
     fallbackGradient: 'from-[#E0D9CC] to-[#C8C0B0]',
     material: 'Algodão Encerado Impermeável · Forro em Flanela de Algodão',
     careInstructions: 'Limpar com pano úmido ou ciclo rápido para impermeáveis.',
@@ -173,7 +179,7 @@ export const PET_PRODUCTS: PetProduct[] = [
     price: 77.0,
     originalPrice: 154.0,
     checkoutUrl: 'https://buy.stripe.com/test_fZu3cwa9e7ee9jDg2lbAs0e',
-    image: '/src/assets/images/product_cat_cardigan_1791498794920.jpg',
+    image: productCatCardiganImg,
     fallbackGradient: 'from-[#DCE2D7] to-[#C5CFC0]',
     material: '100% Algodão Orgânico Penteado (Certificado GOTS)',
     careInstructions: 'Lavável na máquina em saco protetor. Não usar alvejante.',
@@ -207,7 +213,7 @@ export const PET_PRODUCTS: PetProduct[] = [
     price: 107.5,
     originalPrice: 215.0,
     checkoutUrl: 'https://buy.stripe.com/test_14A28s4OUdCCgM517rbAs0f',
-    image: '/src/assets/images/product_fleece_hoodie_1791498804504.jpg',
+    image: productFleeceHoodieImg,
     fallbackGradient: 'from-[#EFECE6] to-[#DFD8CC]',
     material: 'Sherpa Algodão Reciclado · Bandana em Linho Puro Removível',
     careInstructions: 'Lavar do avesso em água fria. Escovar levemente após secar.',
@@ -240,7 +246,7 @@ export const PET_PRODUCTS: PetProduct[] = [
     price: 132.0,
     originalPrice: 264.0,
     checkoutUrl: 'https://buy.stripe.com/test_aFa00kgxCfKK7bv5nHbAs0g',
-    image: '/src/assets/images/hero_pet_editorial_1791498762841.jpg',
+    image: heroPetEditorialImg,
     fallbackGradient: 'from-[#D7DDD3] to-[#BFC8B9]',
     material: 'Nylon Ripstop Fosco Repelente + Base em Tricô de Algodão',
     careInstructions: 'Peças separáveis: lavar o tricô no ciclo delicado.',

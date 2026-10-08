@@ -1,0 +1,6 @@
+{
+  "name": "JJ STORE — Alfaiataria & Moda Pet",
+  "description": "Boutique especializada em roupas e acessórios autorais para cães e gatos, confeccionados com tecidos naturais, modelagem ergonômica e conforto térmico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

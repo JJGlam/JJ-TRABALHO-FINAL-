@@ -11,7 +11,7 @@ import { ProductCard } from './components/ProductCard';
 import { ProductDetailModal } from './components/ProductDetailModal';
 import { SizeGuideSection } from './components/SizeGuideSection';
 import { CartDrawer, CartItem } from './components/CartDrawer';
-import { Search, ShoppingBag, ArrowRight, X } from 'lucide-react';
+import { Search, ShoppingBag, ArrowRight, X, ExternalLink } from 'lucide-react';
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<PetCategory>('all');
@@ -334,6 +334,18 @@ export default function App() {
                 <h2 className="font-display text-2xl sm:text-3xl font-semibold text-[#1C241E] tracking-tight">
                   Peças Essenciais JJ STORE
                 </h2>
+                <p className="mt-2 text-xs sm:text-sm text-[#5C645E] max-w-xl leading-relaxed">
+                  Sua opinião ajuda a aperfeiçoar nossa modelagem e atendimento pet.{' '}
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScdu4-aNC1IZPsmnu-ezd0o1iQ2c3rPVorwKbR7X3KHX5yT6w/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#2A4230] font-semibold underline underline-offset-4 hover:text-[#1C241E] inline-flex items-center gap-1 transition-colors"
+                  >
+                    <span>Avalie a JJ STORE neste formulário rápido</span>
+                    <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                  </a>
+                </p>
               </div>
 
               {/* Functional Segmented Filter Bar */}
@@ -540,6 +552,27 @@ export default function App() {
                     </footer>
                   </blockquote>
                 ))}
+
+                {/* Company Evaluation Form Box */}
+                <div className="p-6 sm:p-7 rounded-xl bg-[#FAF8F5] border border-[#E6DFD3] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div>
+                    <h3 className="font-display text-base font-semibold text-[#1C241E]">
+                      Avalie sua experiência com a JJ STORE
+                    </h3>
+                    <p className="text-xs text-[#5C645E] mt-1 leading-relaxed max-w-md">
+                      Visitou nossa loja ou adquiriu uma peça para o seu pet? Conte para nós o que achou da qualidade, dos preços e do atendimento em nosso formulário oficial.
+                    </p>
+                  </div>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScdu4-aNC1IZPsmnu-ezd0o1iQ2c3rPVorwKbR7X3KHX5yT6w/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="h-10 px-4 rounded-lg bg-[#2A4230] hover:bg-[#1F3324] text-[#FAF8F5] text-xs font-medium flex items-center justify-center gap-2 transition-colors whitespace-nowrap shrink-0"
+                  >
+                    <span>Responder Avaliação</span>
+                    <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -608,6 +641,17 @@ export default function App() {
                   >
                     Sobre o Ateliê JJ STORE
                   </button>
+                </li>
+                <li>
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLScdu4-aNC1IZPsmnu-ezd0o1iQ2c3rPVorwKbR7X3KHX5yT6w/viewform"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[#2A4230] font-medium hover:underline inline-flex items-center gap-1 transition-colors"
+                  >
+                    <span>Formulário de Avaliação da Empresa</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
                 </li>
               </ul>
             </div>
